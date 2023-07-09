@@ -1,0 +1,56 @@
+stages:
+  - test
+  - package
+
+
+variables:
+  LC_ALL: "en_US.UTF-8"
+  LANG: "en_US.UTF-8"
+
+.android_docker_image:
+  image: xetics/flutter:1.5.4-stable
+  tags:
+    - flutter-android
+
+.android_key_store:
+  extends: .android_docker_image
+  before_script:
+    # this will fetch the base64 encoded key store from our CI variables, decode it and place it underneath the path specified in build.gradle
+    - echo "$PLAY_STORE_UPLOAD_KEY" | base64 --decode > android/key.jks
+  only:
+    - master
+
+.setup_fastlane_android:
+  extends: .android_key_store
+  before_script:
+    - cd android/
+    # because the Docker container runs as root currently, we won't do any user-install. Otherwise, it will fail with
+    # $ gem install --user-install bundler
+    # ERROR:  Use --install-dir or --user-install but not both
+    - gem install bundler
+    - bundle install
+
+.setup_fastlane_ios:
+  before_script:
+    - cd ios/
+    - gem install --user-install bundler
+    - bundle install --path vendor/bundle
+    - bundle exec fastlane match
+    - export FLUTTER_APP_VERSION=$(pubver -d ../. get)
+  tags:
+    - ios
+  only:
+    - master
+
+test:
+  extends: .android_docker_image
+  stage: test
+  script:
+    - flutter test --coverage test\addNewLocation_test.dart
+    - flutter test --coverage test\new_test.dart
+    - flutter test --coverage test\seacrhResultPage_test.dart
+  artifacts:
+    paths:
+      - coverage/
+    expire_in: 5 days
+
