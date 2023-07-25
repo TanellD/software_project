@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "hamza.dali.flutter_osm_plugin-merged_res-44:/interpolator/m3_sys_motion_easing_emphasized_accelerate.xml",
+        "source": "hamza.dali.flutter_osm_plugin-material-1.9.0-16:/interpolator/m3_sys_motion_easing_emphasized_accelerate.xml"
+    },
+    {
+        "merged": "hamza.dali.flutter_osm_plugin-merged_res-44:/interpolator/m3_sys_motion_easing_emphasized.xml",
+        "source": "hamza.dali.flutter_osm_plugin-material-1.9.0-16:/interpolator/m3_sys_motion_easing_emphasized.xml"
+    },
+    {
+        "merged": "hamza.dali.flutter_osm_plugin-merged_res-44:/interpolator/m3_sys_motion_easing_standard_accelerate.xml",
+        "source": "hamza.dali.flutter_osm_plugin-material-1.9.0-16:/interpolator/m3_sys_motion_easing_standard_accelerate.xml"
+    },
+    {
+        "merged": "hamza.dali.flutter_osm_plugin-merged_res-44:/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml",
+        "source": "hamza.dali.flutter_osm_plugin-appcompat-1.7.0-alpha02-1:/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "hamza.dali.flutter_osm_plugin-merged_res-44:/interpolator/mtrl_linear.xml",
+        "source": "hamza.dali.flutter_osm_plugin-material-1.9.0-16:/interpolator/mtrl_linear.xml"
+    },
+    {
+        "merged": "hamza.dali.flutter_osm_plugin-merged_res-44:/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1.xml",
+        "source": "hamza.dali.flutter_osm_plugin-appcompat-1.7.0-alpha02-1:/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "hamza.dali.flutter_osm_plugin-merged_res-44:/interpolator/mtrl_fast_out_linear_in.xml",
+        "source": "hamza.dali.flutter_osm_plugin-material-1.9.0-16:/interpolator/mtrl_fast_out_linear_in.xml"
+    },
+    {
+        "merged": "hamza.dali.flutter_osm_plugin-merged_res-44:/interpolator/m3_sys_motion_easing_emphasized_decelerate.xml",
+        "source": "hamza.dali.flutter_osm_plugin-material-1.9.0-16:/interpolator/m3_sys_motion_easing_emphasized_decelerate.xml"
+    },
+    {
+        "merged": "hamza.dali.flutter_osm_plugin-merged_res-44:/interpolator/m3_sys_motion_easing_standard.xml",
+        "source": "hamza.dali.flutter_osm_plugin-material-1.9.0-16:/interpolator/m3_sys_motion_easing_standard.xml"
+    },
+    {
+        "merged": "hamza.dali.flutter_osm_plugin-merged_res-44:/interpolator/mtrl_linear_out_slow_in.xml",
+        "source": "hamza.dali.flutter_osm_plugin-material-1.9.0-16:/interpolator/mtrl_linear_out_slow_in.xml"
+    },
+    {
+        "merged": "hamza.dali.flutter_osm_plugin-merged_res-44:/interpolator/btn_radio_to_on_mtrl_animation_interpolator_0.xml",
+        "source": "hamza.dali.flutter_osm_plugin-appcompat-1.7.0-alpha02-1:/interpolator/btn_radio_to_on_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "hamza.dali.flutter_osm_plugin-merged_res-44:/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0.xml",
+        "source": "hamza.dali.flutter_osm_plugin-appcompat-1.7.0-alpha02-1:/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "hamza.dali.flutter_osm_plugin-merged_res-44:/interpolator/m3_sys_motion_easing_standard_decelerate.xml",
+        "source": "hamza.dali.flutter_osm_plugin-material-1.9.0-16:/interpolator/m3_sys_motion_easing_standard_decelerate.xml"
+    },
+    {
+        "merged": "hamza.dali.flutter_osm_plugin-merged_res-44:/interpolator/btn_radio_to_off_mtrl_animation_interpolator_0.xml",
+        "source": "hamza.dali.flutter_osm_plugin-appcompat-1.7.0-alpha02-1:/interpolator/btn_radio_to_off_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "hamza.dali.flutter_osm_plugin-merged_res-44:/interpolator/mtrl_fast_out_slow_in.xml",
+        "source": "hamza.dali.flutter_osm_plugin-material-1.9.0-16:/interpolator/mtrl_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "hamza.dali.flutter_osm_plugin-merged_res-44:/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml",
+        "source": "hamza.dali.flutter_osm_plugin-appcompat-1.7.0-alpha02-1:/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "hamza.dali.flutter_osm_plugin-merged_res-44:/interpolator/m3_sys_motion_easing_linear.xml",
+        "source": "hamza.dali.flutter_osm_plugin-material-1.9.0-16:/interpolator/m3_sys_motion_easing_linear.xml"
+    },
+    {
+        "merged": "hamza.dali.flutter_osm_plugin-merged_res-44:/interpolator/fast_out_slow_in.xml",
+        "source": "hamza.dali.flutter_osm_plugin-appcompat-1.7.0-alpha02-1:/interpolator/fast_out_slow_in.xml"
+    }
+]

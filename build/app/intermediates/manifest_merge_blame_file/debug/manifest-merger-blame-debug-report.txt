@@ -1,0 +1,288 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.software_project"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\Danil\Desktop\final_test_new\android\app\src\main\AndroidManifest.xml:7:3-64
+15-->C:\Users\Danil\Desktop\final_test_new\android\app\src\main\AndroidManifest.xml:7:20-62
+16    <!-- Always include this permission -->
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Include only if your app benefits from precise location access. -->
+17-->C:\Users\Danil\Desktop\final_test_new\android\app\src\main\AndroidManifest.xml:3:3-79
+17-->C:\Users\Danil\Desktop\final_test_new\android\app\src\main\AndroidManifest.xml:3:20-76
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->C:\Users\Danil\Desktop\final_test_new\android\app\src\main\AndroidManifest.xml:6:3-77
+18-->C:\Users\Danil\Desktop\final_test_new\android\app\src\main\AndroidManifest.xml:6:20-74
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->C:\Users\Danil\Desktop\final_test_new\android\app\src\main\AndroidManifest.xml:8:3-77
+19-->C:\Users\Danil\Desktop\final_test_new\android\app\src\main\AndroidManifest.xml:8:20-74
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+20-->[:geolocator_android] C:\Users\Danil\Desktop\final_test_new\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-77
+20-->[:geolocator_android] C:\Users\Danil\Desktop\final_test_new\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-74
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->[:flutter_osm_plugin] C:\Users\Danil\Desktop\final_test_new\build\flutter_osm_plugin\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-81
+21-->[:flutter_osm_plugin] C:\Users\Danil\Desktop\final_test_new\build\flutter_osm_plugin\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-78
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+23
+24    <permission
+24-->[androidx.core:core:1.10.1] C:\Users\Danil\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+25        android:name="com.example.software_project.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+25-->[androidx.core:core:1.10.1] C:\Users\Danil\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+26        android:protectionLevel="signature" />
+26-->[androidx.core:core:1.10.1] C:\Users\Danil\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+27
+28    <uses-permission android:name="com.example.software_project.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+28-->[androidx.core:core:1.10.1] C:\Users\Danil\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+28-->[androidx.core:core:1.10.1] C:\Users\Danil\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+29
+30    <supports-screens
+30-->[org.osmdroid:osmdroid-android:6.1.13] C:\Users\Danil\.gradle\caches\transforms-3\a3e64ea64ef94080d8d6e84d06ae437c\transformed\jetified-osmdroid-android-6.1.13\AndroidManifest.xml:9:5-12:40
+31        android:anyDensity="true"
+31-->[org.osmdroid:osmdroid-android:6.1.13] C:\Users\Danil\.gradle\caches\transforms-3\a3e64ea64ef94080d8d6e84d06ae437c\transformed\jetified-osmdroid-android-6.1.13\AndroidManifest.xml:10:9-34
+32        android:largeScreens="true"
+32-->[org.osmdroid:osmdroid-android:6.1.13] C:\Users\Danil\.gradle\caches\transforms-3\a3e64ea64ef94080d8d6e84d06ae437c\transformed\jetified-osmdroid-android-6.1.13\AndroidManifest.xml:11:9-36
+33        android:normalScreens="true" />
+33-->[org.osmdroid:osmdroid-android:6.1.13] C:\Users\Danil\.gradle\caches\transforms-3\a3e64ea64ef94080d8d6e84d06ae437c\transformed\jetified-osmdroid-android-6.1.13\AndroidManifest.xml:12:9-37
+34
+35    <uses-feature
+35-->[org.osmdroid:osmdroid-android:6.1.13] C:\Users\Danil\.gradle\caches\transforms-3\a3e64ea64ef94080d8d6e84d06ae437c\transformed\jetified-osmdroid-android-6.1.13\AndroidManifest.xml:14:5-16:36
+36        android:name="android.hardware.location.network"
+36-->[org.osmdroid:osmdroid-android:6.1.13] C:\Users\Danil\.gradle\caches\transforms-3\a3e64ea64ef94080d8d6e84d06ae437c\transformed\jetified-osmdroid-android-6.1.13\AndroidManifest.xml:15:9-57
+37        android:required="false" />
+37-->[org.osmdroid:osmdroid-android:6.1.13] C:\Users\Danil\.gradle\caches\transforms-3\a3e64ea64ef94080d8d6e84d06ae437c\transformed\jetified-osmdroid-android-6.1.13\AndroidManifest.xml:16:9-33
+38    <uses-feature
+38-->[org.osmdroid:osmdroid-android:6.1.13] C:\Users\Danil\.gradle\caches\transforms-3\a3e64ea64ef94080d8d6e84d06ae437c\transformed\jetified-osmdroid-android-6.1.13\AndroidManifest.xml:17:5-19:36
+39        android:name="android.hardware.location.gps"
+39-->[org.osmdroid:osmdroid-android:6.1.13] C:\Users\Danil\.gradle\caches\transforms-3\a3e64ea64ef94080d8d6e84d06ae437c\transformed\jetified-osmdroid-android-6.1.13\AndroidManifest.xml:18:9-53
+40        android:required="false" />
+40-->[org.osmdroid:osmdroid-android:6.1.13] C:\Users\Danil\.gradle\caches\transforms-3\a3e64ea64ef94080d8d6e84d06ae437c\transformed\jetified-osmdroid-android-6.1.13\AndroidManifest.xml:19:9-33
+41    <uses-feature
+41-->[org.osmdroid:osmdroid-android:6.1.13] C:\Users\Danil\.gradle\caches\transforms-3\a3e64ea64ef94080d8d6e84d06ae437c\transformed\jetified-osmdroid-android-6.1.13\AndroidManifest.xml:20:5-22:36
+42        android:name="android.hardware.telephony"
+42-->[org.osmdroid:osmdroid-android:6.1.13] C:\Users\Danil\.gradle\caches\transforms-3\a3e64ea64ef94080d8d6e84d06ae437c\transformed\jetified-osmdroid-android-6.1.13\AndroidManifest.xml:21:9-50
+43        android:required="false" />
+43-->[org.osmdroid:osmdroid-android:6.1.13] C:\Users\Danil\.gradle\caches\transforms-3\a3e64ea64ef94080d8d6e84d06ae437c\transformed\jetified-osmdroid-android-6.1.13\AndroidManifest.xml:22:9-33
+44    <uses-feature
+44-->[org.osmdroid:osmdroid-android:6.1.13] C:\Users\Danil\.gradle\caches\transforms-3\a3e64ea64ef94080d8d6e84d06ae437c\transformed\jetified-osmdroid-android-6.1.13\AndroidManifest.xml:23:5-25:36
+45        android:name="android.hardware.wifi"
+45-->[org.osmdroid:osmdroid-android:6.1.13] C:\Users\Danil\.gradle\caches\transforms-3\a3e64ea64ef94080d8d6e84d06ae437c\transformed\jetified-osmdroid-android-6.1.13\AndroidManifest.xml:24:9-45
+46        android:required="false" />
+46-->[org.osmdroid:osmdroid-android:6.1.13] C:\Users\Danil\.gradle\caches\transforms-3\a3e64ea64ef94080d8d6e84d06ae437c\transformed\jetified-osmdroid-android-6.1.13\AndroidManifest.xml:25:9-33
+47
+48    <application
+49        android:name="android.app.Application"
+50        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+50-->[androidx.core:core:1.10.1] C:\Users\Danil\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+51        android:debuggable="true"
+52        android:icon="@mipmap/launcher_icon"
+53        android:label="KazanTravel" >
+54        <activity
+55            android:name="com.example.software_project.MainActivity"
+56            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+57            android:exported="true"
+58            android:hardwareAccelerated="true"
+59            android:launchMode="singleTop"
+60            android:theme="@style/LaunchTheme"
+61            android:windowSoftInputMode="adjustResize" >
+62
+63            <!--
+64                 Specifies an Android theme to apply to this Activity as soon as
+65                 the Android process has started. This theme is visible to the user
+66                 while the Flutter UI initializes. After that, this theme continues
+67                 to determine the Window background behind the Flutter UI.
+68            -->
+69            <meta-data
+70                android:name="io.flutter.embedding.android.NormalTheme"
+71                android:resource="@style/NormalTheme" />
+72
+73            <intent-filter>
+74                <action android:name="android.intent.action.MAIN" />
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+77            </intent-filter>
+78        </activity>
+79        <!--
+80             Don't delete the meta-data below.
+81             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+82        -->
+83        <meta-data
+84            android:name="flutterEmbedding"
+85            android:value="2" />
+86
+87        <service
+87-->[:geolocator_android] C:\Users\Danil\Desktop\final_test_new\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-16:56
+88            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+88-->[:geolocator_android] C:\Users\Danil\Desktop\final_test_new\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-77
+89            android:enabled="true"
+89-->[:geolocator_android] C:\Users\Danil\Desktop\final_test_new\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-35
+90            android:exported="false"
+90-->[:geolocator_android] C:\Users\Danil\Desktop\final_test_new\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-37
+91            android:foregroundServiceType="location" />
+91-->[:geolocator_android] C:\Users\Danil\Desktop\final_test_new\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-53
+92
+93        <provider
+93-->[:image_picker_android] C:\Users\Danil\Desktop\final_test_new\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+94            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+94-->[:image_picker_android] C:\Users\Danil\Desktop\final_test_new\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-82
+95            android:authorities="com.example.software_project.flutter.image_provider"
+95-->[:image_picker_android] C:\Users\Danil\Desktop\final_test_new\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+96            android:exported="false"
+96-->[:image_picker_android] C:\Users\Danil\Desktop\final_test_new\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+97            android:grantUriPermissions="true" >
+97-->[:image_picker_android] C:\Users\Danil\Desktop\final_test_new\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+98            <meta-data
+98-->[:image_picker_android] C:\Users\Danil\Desktop\final_test_new\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
+99                android:name="android.support.FILE_PROVIDER_PATHS"
+99-->[:image_picker_android] C:\Users\Danil\Desktop\final_test_new\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+100                android:resource="@xml/flutter_image_picker_file_paths" />
+100-->[:image_picker_android] C:\Users\Danil\Desktop\final_test_new\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
+101        </provider>
+102
+103        <activity
+103-->[:url_launcher_android] C:\Users\Danil\Desktop\final_test_new\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+104            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+104-->[:url_launcher_android] C:\Users\Danil\Desktop\final_test_new\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+105            android:exported="false"
+105-->[:url_launcher_android] C:\Users\Danil\Desktop\final_test_new\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+106            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+106-->[:url_launcher_android] C:\Users\Danil\Desktop\final_test_new\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+107        <activity
+107-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\Danil\.gradle\caches\transforms-3\dba365070cc7ac55f68f88576550c7a3\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:23:9-27:75
+108            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+108-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\Danil\.gradle\caches\transforms-3\dba365070cc7ac55f68f88576550c7a3\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:24:13-93
+109            android:excludeFromRecents="true"
+109-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\Danil\.gradle\caches\transforms-3\dba365070cc7ac55f68f88576550c7a3\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:25:13-46
+110            android:exported="false"
+110-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\Danil\.gradle\caches\transforms-3\dba365070cc7ac55f68f88576550c7a3\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:26:13-37
+111            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+111-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\Danil\.gradle\caches\transforms-3\dba365070cc7ac55f68f88576550c7a3\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:27:13-72
+112        <!--
+113            Service handling Google Sign-In user revocation. For apps that do not integrate with
+114            Google Sign-In, this service will never be started.
+115        -->
+116        <service
+116-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\Danil\.gradle\caches\transforms-3\dba365070cc7ac55f68f88576550c7a3\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:33:9-37:51
+117            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+117-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\Danil\.gradle\caches\transforms-3\dba365070cc7ac55f68f88576550c7a3\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:34:13-89
+118            android:exported="true"
+118-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\Danil\.gradle\caches\transforms-3\dba365070cc7ac55f68f88576550c7a3\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:35:13-36
+119            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+119-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\Danil\.gradle\caches\transforms-3\dba365070cc7ac55f68f88576550c7a3\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:36:13-107
+120            android:visibleToInstantApps="true" />
+120-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\Danil\.gradle\caches\transforms-3\dba365070cc7ac55f68f88576550c7a3\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:37:13-48
+121
+122        <activity
+122-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Danil\.gradle\caches\transforms-3\aba8f806953ea3dd8f794da3aeb78a12\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+123            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+123-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Danil\.gradle\caches\transforms-3\aba8f806953ea3dd8f794da3aeb78a12\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+124            android:exported="false"
+124-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Danil\.gradle\caches\transforms-3\aba8f806953ea3dd8f794da3aeb78a12\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+125            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+125-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Danil\.gradle\caches\transforms-3\aba8f806953ea3dd8f794da3aeb78a12\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+126
+127        <meta-data
+127-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\Danil\.gradle\caches\transforms-3\f5aeeb70e4aa208ac830e747eaf33ddc\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+128            android:name="com.google.android.gms.version"
+128-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\Danil\.gradle\caches\transforms-3\f5aeeb70e4aa208ac830e747eaf33ddc\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
+129            android:value="@integer/google_play_services_version" />
+129-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\Danil\.gradle\caches\transforms-3\f5aeeb70e4aa208ac830e747eaf33ddc\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
+130
+131        <provider
+131-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Danil\.gradle\caches\transforms-3\e04bc3769bedd8dd6f8ca688986b0355\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+132            android:name="androidx.startup.InitializationProvider"
+132-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Danil\.gradle\caches\transforms-3\e04bc3769bedd8dd6f8ca688986b0355\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+133            android:authorities="com.example.software_project.androidx-startup"
+133-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Danil\.gradle\caches\transforms-3\e04bc3769bedd8dd6f8ca688986b0355\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+134            android:exported="false" >
+134-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Danil\.gradle\caches\transforms-3\e04bc3769bedd8dd6f8ca688986b0355\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+135            <meta-data
+135-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Danil\.gradle\caches\transforms-3\e04bc3769bedd8dd6f8ca688986b0355\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+136                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+136-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Danil\.gradle\caches\transforms-3\e04bc3769bedd8dd6f8ca688986b0355\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+137                android:value="androidx.startup" />
+137-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Danil\.gradle\caches\transforms-3\e04bc3769bedd8dd6f8ca688986b0355\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+138            <meta-data
+138-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Danil\.gradle\caches\transforms-3\34e3313412f6bb2343705c93422b49a8\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+139                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+139-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Danil\.gradle\caches\transforms-3\34e3313412f6bb2343705c93422b49a8\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+140                android:value="androidx.startup" />
+140-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Danil\.gradle\caches\transforms-3\34e3313412f6bb2343705c93422b49a8\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+141            <meta-data
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Danil\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+142                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+142-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Danil\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+143                android:value="androidx.startup" />
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Danil\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+144        </provider>
+145
+146        <uses-library
+146-->[androidx.window:window:1.0.0] C:\Users\Danil\.gradle\caches\transforms-3\44815cc86bcd8aa55f9a45c8a20ff3ae\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+147            android:name="androidx.window.extensions"
+147-->[androidx.window:window:1.0.0] C:\Users\Danil\.gradle\caches\transforms-3\44815cc86bcd8aa55f9a45c8a20ff3ae\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+148            android:required="false" />
+148-->[androidx.window:window:1.0.0] C:\Users\Danil\.gradle\caches\transforms-3\44815cc86bcd8aa55f9a45c8a20ff3ae\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+149        <uses-library
+149-->[androidx.window:window:1.0.0] C:\Users\Danil\.gradle\caches\transforms-3\44815cc86bcd8aa55f9a45c8a20ff3ae\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+150            android:name="androidx.window.sidecar"
+150-->[androidx.window:window:1.0.0] C:\Users\Danil\.gradle\caches\transforms-3\44815cc86bcd8aa55f9a45c8a20ff3ae\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+151            android:required="false" />
+151-->[androidx.window:window:1.0.0] C:\Users\Danil\.gradle\caches\transforms-3\44815cc86bcd8aa55f9a45c8a20ff3ae\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+152
+153        <provider
+153-->[com.squareup.picasso:picasso:2.71828] C:\Users\Danil\.gradle\caches\transforms-3\80047be6a63f6c4bc93ebdae65de1a5c\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+154            android:name="com.squareup.picasso.PicassoProvider"
+154-->[com.squareup.picasso:picasso:2.71828] C:\Users\Danil\.gradle\caches\transforms-3\80047be6a63f6c4bc93ebdae65de1a5c\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+155            android:authorities="com.example.software_project.com.squareup.picasso"
+155-->[com.squareup.picasso:picasso:2.71828] C:\Users\Danil\.gradle\caches\transforms-3\80047be6a63f6c4bc93ebdae65de1a5c\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+156            android:exported="false" />
+156-->[com.squareup.picasso:picasso:2.71828] C:\Users\Danil\.gradle\caches\transforms-3\80047be6a63f6c4bc93ebdae65de1a5c\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+157
+158        <receiver
+158-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Danil\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+159            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+159-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Danil\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+160            android:directBootAware="false"
+160-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Danil\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+161            android:enabled="true"
+161-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Danil\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+162            android:exported="true"
+162-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Danil\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+163            android:permission="android.permission.DUMP" >
+163-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Danil\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+164            <intent-filter>
+164-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Danil\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+165                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+165-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Danil\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+165-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Danil\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+166            </intent-filter>
+167            <intent-filter>
+167-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Danil\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+168                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+168-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Danil\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+168-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Danil\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+169            </intent-filter>
+170            <intent-filter>
+170-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Danil\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+171                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+171-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Danil\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+171-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Danil\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+172            </intent-filter>
+173            <intent-filter>
+173-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Danil\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+174                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+174-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Danil\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+174-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Danil\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+175            </intent-filter>
+176        </receiver>
+177    </application>
+178
+179</manifest>

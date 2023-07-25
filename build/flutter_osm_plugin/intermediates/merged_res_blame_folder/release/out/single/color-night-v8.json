@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "hamza.dali.flutter_osm_plugin-merged_res-44:/color-night-v8/material_timepicker_button_stroke.xml",
+        "source": "hamza.dali.flutter_osm_plugin-material-1.9.0-16:/color-night-v8/material_timepicker_button_stroke.xml"
+    },
+    {
+        "merged": "hamza.dali.flutter_osm_plugin-merged_res-44:/color-night-v8/material_timepicker_clockface.xml",
+        "source": "hamza.dali.flutter_osm_plugin-material-1.9.0-16:/color-night-v8/material_timepicker_clockface.xml"
+    },
+    {
+        "merged": "hamza.dali.flutter_osm_plugin-merged_res-44:/color-night-v8/material_timepicker_modebutton_tint.xml",
+        "source": "hamza.dali.flutter_osm_plugin-material-1.9.0-16:/color-night-v8/material_timepicker_modebutton_tint.xml"
+    }
+]
